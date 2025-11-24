@@ -3,16 +3,36 @@
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
-    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet"
+          href="main.css">
+    <!-- hold down ctrl and space bar to pick a relative path-->
+
 </head>
 <body>
 
+<p>this is from a relative path</p>
 <img src="dog.jpg"
+     alt="image of dog, relatively path">
+
+<!--to place dog.jpg, hold down ctrl and space bar to pick an relative path like img
+ folder, then forward slash, ctrl + space to pick file
+-->
+<p>This is from an relative path, the img/ folder</p>
+<img src="img/dog.jpg"
      alt="image of bitsy">
 
+<p>This is from an relative path, one level up, in html dir</p>
+<img src="../dododog.png"
+     alt="image of bitsy">
 <p>space</p>
+<p>This is from an absolute path</p>
 
-a link to <a href="https://www.google.com" target = "_blank">google</a>
+<img src="//www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png">
+
+
+<p>space</p>
+a link to <a href="https://www.google.com"
+             target="_blank">google</a>
 
 <p>space</p>
 
@@ -21,6 +41,9 @@ a link to <a href="https://www.google.com" target = "_blank">google</a>
 
 <!--This is a comment by using control + /-->
 <!--Type h -->
+
+<!-- can also h${$$$}*6 then tab-->
+
 <h1>Type h1 the tab</h1>
 <h1>Heading 1</h1>
 <p>Frank is great</p>
@@ -41,9 +64,10 @@ a link to <a href="https://www.google.com" target = "_blank">google</a>
 
 <!--Type ul>li*6 the tab-->
 <ul>
-<!--    hole alt down and click where you want to insert-->
+    <!--    hole alt down and click where you want to insert-->
     <li>Frank</li>
-    <li>Frank</li>
+
+    <li>Unordered List</li>
 </ul>
 <ul>
     <li>List Item 1</li>
@@ -53,7 +77,9 @@ a link to <a href="https://www.google.com" target = "_blank">google</a>
     <li>List Item 5</li>
     <li>List Item 6</li>
 
-<!--    Ordered list, shows number-->
+    <p>Ordered List - Numbered</p>
+
+    <!--    Ordered list, shows number-->
     <ol>
 
         <li>Frank</li>

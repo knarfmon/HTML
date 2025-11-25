@@ -1,0 +1,8 @@
+div{width: 400px; height: 200px;background-color: aqua;
+border: 40px red dashed;
+margin: 20px 40px 60px 80px;}
+/*T R B L is top right bottom left  */
+/*"margin: 20px auto"" is 20 top and bottom and auto left and right*/
+/*"margin: 0 auto" is nothing on the top and bottom, and auto left and right*/
+
+.border{box-sizing: border-box;}

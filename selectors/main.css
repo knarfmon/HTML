@@ -1,0 +1,32 @@
+.emphasize {
+    color: red;
+    font-weight: bold;
+}
+
+#important {
+    color: darkgoldenrod;
+    font-size: 40px;
+}
+
+[href]{ color: orange;}
+
+body{font-size: 30px;
+text-align: center;}
+
+/*
+Pseudo-classes
+Order matters
+Link, Visited, Hover, Active
+LVHA
+*/
+
+a:link {color: orange;}
+a:visited {color: purple;}
+a:hover {color: red;}
+a:active {color: yellow;}
+
+div{background-color: red;
+width: 100px; height: 100px;
+display: inline-block;}
+
+div:hover{background-color: aquamarine;}

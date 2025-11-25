@@ -1,0 +1,9 @@
+div{width: 200px; height: 200px;background-color: aqua;
+border: 20px orangered groove;
+border-radius: 20%;
+background-image: url(../tags/dog.jpg);
+background-size: cover;
+
+padding-right: 150px;
+
+}

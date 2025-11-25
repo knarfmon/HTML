@@ -1,9 +1,13 @@
 div{width: 200px; height: 200px; border: 10px solid red;
 border-radius: 100%; background-image: url("../tags/dog.jpg");
 /*background-size: cover;*/
-background-repeat: no-repeat;}
+background-repeat: no-repeat;
+display: inline-block;}
 
-img{border: 10px groove orangered; border-radius: 100%;}
+
+
+img{border: 10px groove orangered; border-radius: 100%;
+padding: 40px; margin: 40px;}
 
 .dog1{border: 10px dashed orangered;}
 
@@ -12,3 +16,13 @@ img{border: 10px groove orangered; border-radius: 100%;}
 .dog3{border: 10px double orangered;}
 
 /*select then alt j multiple times to select all*/
+
+/*content>padding>border>margin*/
+
+/**/
+.dog4{border: 10px groove orangered;
+    padding: 40px; margin: 80px;
+    width: 200px; height: 200px;
+box-sizing: border-box}
+/*box-sizing: border-box, shrinks the image to fit the box, constrains the width of the element, margin will still push things left and right, but padding and border will push content inwards*/
+

@@ -53,6 +53,9 @@ input {
     margin-top: 4px;
     border: 1px solid darkgray;
 }
+input:focus {
+    border: 4px solid red;
+}
 
 [type=submit] {
     margin-top: 10px;
@@ -72,3 +75,6 @@ input:required {
     border: 1px solid red;
     background-color: rgba(255, 182, 193, 0.13);
 }
+
+/* Use focus with Forms instead of active
+*/

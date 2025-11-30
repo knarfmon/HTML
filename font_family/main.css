@@ -1,0 +1,9 @@
+h1{
+    font-family: cursive, sans-serif, serif;
+    /*font-family: "Bitstream Vera Sans Mono", sans-serif;*/
+    font-size: 3rem;
+    /*font-weight: bold;*/
+    font-style: italic;
+
+/*     always include a generic font family, like serif or sans-serif, and rem is mostly used and sometimes VH and VW */
+}

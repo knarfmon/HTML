@@ -1,0 +1,21 @@
+*{
+    border: 2px dashed hotpink;
+}
+html{
+    border: 2px dashed aqua;
+}
+body{
+    border: 2px dashed black;
+}
+
+div{
+    height: 200px;
+}
+
+img{
+    /* block level element to take up full width*/
+    display: block;
+
+    /* to center*/
+    margin: 0 auto;
+}

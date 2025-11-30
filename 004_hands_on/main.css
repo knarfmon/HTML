@@ -1,0 +1,51 @@
+#emp{
+    color: red;
+}
+
+.emp{
+    color: burlywood;
+}
+
+/*[href]{*/
+/*    color: orange;*/
+/*}*/
+
+a:hover{
+    color: green;
+}
+
+#pep{
+    color: BlueViolet;
+    font-size: 30px;
+    font-weight: bold;
+    border: 4px solid black;
+
+}
+
+#ford{
+    color: Green;
+    font-size: 20px;
+    link {color: orange;}
+    visited {color: purple;}
+    hover {color: red;}
+    active {color: yellow;}
+}
+#poof::first-letter {
+    font-size: 30px;
+    font-family: "cursive";
+    line-height: .5;
+    color: red;
+}
+#poof::first-line{font-weight: bold; color: Green;}
+
+/* the first one wins*/
+.cls{color: red; font-size: 40px;}
+#ido{color: green; font-size: 60px;}
+#idd{color: orangered; font-size: 80px;}
+
+/* the first one wins */
+.cl2{color: blue; font-size: 20px;}
+.cl3{color: orangered; font-size: 20px;}
+
+div{background-color: aqua;}
+div{background-color: orangered;}

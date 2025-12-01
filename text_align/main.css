@@ -1,0 +1,8 @@
+p {text-align: center;
+border: 3px solid black;
+font-size: 3rem
+}
+.right{text-align: right;}
+.left{text-align: left;}
+.justify{text-align: justify;}
+.centeredtoo{margin: 0 auto;}

@@ -1,0 +1,18 @@
+h1 {color:purple;
+font-size: 3rem;
+font-family: 'Roboto';}
+
+#one{
+    font-weight: 400;
+
+}
+
+#two{
+    font-weight: 700;
+
+}
+
+#three{
+    font-weight: 900;
+
+}

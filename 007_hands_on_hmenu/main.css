@@ -1,0 +1,51 @@
+html {
+    font-size: 2rem;
+}
+
+.block  {
+    height: 30px;
+    /*width: 100px;*/
+    border: 2px solid black;
+    border-radius: 50px;
+    /*display: block; already a block level element*/
+    text-align: center;
+    /*padding: 10px;*/
+
+}
+.one {
+    background-color: #FF0000;
+}
+
+.two {
+    background-color: #0000FF;
+}
+
+.three {
+    background-color: #FFD700;
+}
+
+.four {
+    background-color: #308014;
+}
+
+.menu{
+    list-style: none;
+}
+.inlineblock {
+    height: 40px;
+    width: 150px;
+    border: 2px solid black;
+    border-radius: 50px;
+    display: inline-block;
+    text-align: center;
+
+}
+
+a {
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 50px;
+    display: inline-block;
+    text-decoration: none;
+    list-style-type: none;
+}
